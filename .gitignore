@@ -1,3 +1,7 @@
+./data_generation/for_detection/images/*
+./data_generation/for_detection/images/synth_text_images/*
+./detection/data/*
+./recognition/model/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
