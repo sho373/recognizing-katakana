@@ -1,0 +1,16 @@
+Shapely
+Flask
+matplotlib
+scipy
+plumbum
+numpy
+ipython
+Pillow
+google-trans-new
+wheel
+tensorflow==1.13.1
+keras==2.1.5
+h5py==2.10.0
+scikit-build
+opencv-python
+bing-image-downloader
