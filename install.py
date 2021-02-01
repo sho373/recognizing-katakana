@@ -36,6 +36,10 @@ if x == "y":
     model_data = "model/model-35.h5"
     install_helper.download_file_from_google_drive(file_id,  model_data)
 
+    file_id = "1qM0Aoo3bz982ps3QxVaUBxOLADEv-1I-"
+    model_json_data = "model/model.json"
+    install_helper.download_file_from_google_drive(file_id,  model_json_data)
+
     print("Downloading japanese font")
     file_id = "1mbtGYV1VRoMSCmGbOMm11LmQ_CRL0vRm"
     font = "font/MSGOTHIC.TTC"
@@ -45,7 +49,7 @@ x = input("Do you want to download images for check?[y/n]")
 if x == "y":
     
     print("Downloading check image")
-    file_id = "1eCAHQ8XjbqpzDz_6OKQRbaX5YIBtr359"
+    file_id = "1OyWnzGz9-gxjGGKVGK4yY5mfv9g7LZYv"
     check_rar_dataset = "check/images.rar"
     install_helper.download_file_from_google_drive(file_id, check_rar_dataset)
     
