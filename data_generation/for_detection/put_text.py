@@ -7,7 +7,6 @@ import numpy as np
 import matplotlib as plt
 from PIL import ImageFont, ImageDraw, Image
 import os
-from mpmath import *
 from rotate_text import draw_rotated_text
 import math
 

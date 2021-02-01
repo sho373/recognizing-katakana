@@ -16,3 +16,4 @@ opencv-python
 bing-image-downloader
 requests
 rarfile
+sklearn
