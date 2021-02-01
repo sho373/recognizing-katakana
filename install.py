@@ -32,8 +32,8 @@ if x == "y":
     katakana_model_data = "katakana_char_model.h5"
     install_helper.download_file_from_google_drive(file_id, katakana_model_data)
     
-    file_id = "1wU9e3-UyRwrp_a5M5ALaqASDezavT1_j"
-    model_data = "model/model-35.h5"
+    file_id = "18Yx27DcV_JRR-X0zZRcvtUfI4gGqMolu"
+    model_data = "model/model-38.h5"
     install_helper.download_file_from_google_drive(file_id,  model_data)
 
     file_id = "1qM0Aoo3bz982ps3QxVaUBxOLADEv-1I-"
