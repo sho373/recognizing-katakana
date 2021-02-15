@@ -16,7 +16,7 @@ import detection.lanms
 parser = argparse.ArgumentParser()
 parser.add_argument('--test_data_path', type=str, default='check/')
 parser.add_argument('--gpu_list', type=str, default='0')
-parser.add_argument('--model_path', type=str, default='model/model-38.h5')
+parser.add_argument('--model_path', type=str, default='model/model-30.h5')
 parser.add_argument('--output_dir', type=str, default='results/')
 FLAGS = parser.parse_args()
 

@@ -33,7 +33,7 @@ if x == "y":
     install_helper.download_file_from_google_drive(file_id, katakana_model_data)
     
     file_id = "18Yx27DcV_JRR-X0zZRcvtUfI4gGqMolu"
-    model_data = "model/model-38.h5"
+    model_data = "model/model-30.h5"
     install_helper.download_file_from_google_drive(file_id,  model_data)
 
     file_id = "1qM0Aoo3bz982ps3QxVaUBxOLADEv-1I-"

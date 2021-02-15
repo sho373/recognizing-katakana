@@ -4,18 +4,12 @@ import shutil
 
 label_xml_dir = "synth_text_images"
 out_dir = "txt"
-img_dir = "images"
 
 if not os.path.exists(out_dir):
     os.mkdir(out_dir)
 
-if not os.path.exists(os.path.join(label_xml_dir,img_dir)):
-    os.mkdir(os.path.join(label_xml_dir,img_dir))
 
 for filename in os.listdir(label_xml_dir):
-    if filename.endswith(".jpg"):
-        shutil.copy(os.path.join(label_xml_dir,file_name), os.path.join(label_xml_dir,img_dir))
-        
     if filename.endswith(".xml"):
        
         full_file = os.path.abspath(os.path.join(label_xml_dir,filename))
