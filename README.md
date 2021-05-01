@@ -36,5 +36,6 @@ This is a Keras==2.1.5 implementation of based on a Tensoflow==1.13.1
 
 ##  Acknowledgement and References
 Detection models is a Keras implmentation of EAST from [this repository](https://github.com/kurapan/EAST) (Repository of EAST made by argman is [here](https://github.com/argman/EAST) and original paper by Zhou et al. is [here](https://arxiv.org/abs/1704.03155))
+main.py is a modified version of evai.py from this repository, with new functions added in lines 27-48, a new model for recognition loaded in the main function, and modified code in lines 223-237.
 For recognition CNN was build in Keras and Tensorflow backend. 
 [LabelImg2](ttps://github.com/chinakook/labelImg2) was used for labeling.
